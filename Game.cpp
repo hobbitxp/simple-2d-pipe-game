@@ -159,18 +159,18 @@
 
 	//2/12: Initialise all the images used for the game
 	void Game::initImages() {
-		sidePipeImg = SDL_LoadBMP( "pipeside.bmp" );
-		upPipeImg = SDL_LoadBMP( "pipeup.bmp" );
-		playerImg = SDL_LoadBMP( "player.bmp" );
-		tileImg = SDL_LoadBMP( "tile.bmp" );
-		openRightTileImg = SDL_LoadBMP( "tileopenright.bmp" );
-		openLeftTileImg = SDL_LoadBMP( "tileopenleft.bmp" );
-		openUpTileImg = SDL_LoadBMP( "tileopenup.bmp" );
-		openDownTileImg = SDL_LoadBMP( "tileopendown.bmp" );
-		player1Wins = SDL_LoadBMP( "player1wins.bmp" );
-		player2Wins = SDL_LoadBMP( "player2wins.bmp" );
-		gameOverImg = SDL_LoadBMP( "gameover.bmp" );
-		timeOver = SDL_LoadBMP( "timeover.bmp" );
+		sidePipeImg = SDL_LoadBMP( "res/pipeside.bmp" );
+		upPipeImg = SDL_LoadBMP( "res/pipeup.bmp" );
+		playerImg = SDL_LoadBMP( "res/player.bmp" );
+		tileImg = SDL_LoadBMP( "res/tile.bmp" );
+		openRightTileImg = SDL_LoadBMP( "res/tileopenright.bmp" );
+		openLeftTileImg = SDL_LoadBMP( "res/tileopenleft.bmp" );
+		openUpTileImg = SDL_LoadBMP( "res/tileopenup.bmp" );
+		openDownTileImg = SDL_LoadBMP( "res/tileopendown.bmp" );
+		player1Wins = SDL_LoadBMP( "res/player1wins.bmp" );
+		player2Wins = SDL_LoadBMP( "res/player2wins.bmp" );
+		gameOverImg = SDL_LoadBMP( "res/gameover.bmp" );
+		timeOver = SDL_LoadBMP( "res/timeover.bmp" );
 	}
 
 	//4/12: DrawGrid method, takes grid reference and tiles pointer as parameters

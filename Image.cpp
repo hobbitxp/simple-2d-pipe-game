@@ -25,7 +25,7 @@ Image::Image() {
 
 	SDL_EnableKeyRepeat(200, 200);
 
-	SDL_Surface* back = SDL_LoadBMP( "background.bmp" );
+	SDL_Surface* back = SDL_LoadBMP( "res/background.bmp" );
 	draw(back, 0, 0);
 }
 
