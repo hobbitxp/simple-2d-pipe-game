@@ -1,7 +1,7 @@
 #include <string>
 #include <stdlib.h>
-#include "SDL.h"
-#include "SDL_opengl.h"
+#include "include/SDL.h"
+#include "include/SDL_opengl.h"
 #include "Enemy.h"
 
 using namespace std;

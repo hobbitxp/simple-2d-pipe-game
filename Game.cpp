@@ -8,7 +8,7 @@
 */
 #include <stdlib.h>
 #include <vector>
-#include "SDL.h"
+#include "include/SDL.h"
 #include "Game.h"
 #include "Pipe.h"
 #include "Player.h"

@@ -7,7 +7,7 @@
 
 #include <stdlib.h>
 #include <vector>
-#include "SDL.h"
+#include "include/SDL.h"
 #include "Pipe.h"
 #include "Image.h"
 #include "Grid.h"

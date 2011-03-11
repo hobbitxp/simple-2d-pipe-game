@@ -7,7 +7,7 @@
 
 #include <string>
 #include <stdlib.h>
-#include "SDL.h"
+#include "include/SDL.h"
 #include "Sprite.h"
 
 using namespace std;

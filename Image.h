@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 #include <stdlib.h>
-#include "SDL.h"
+#include "include/SDL.h"
 
 using namespace std;
 

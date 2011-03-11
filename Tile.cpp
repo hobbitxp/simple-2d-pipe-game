@@ -10,7 +10,7 @@
 */
 #include <string>
 #include <stdlib.h>
-#include "SDL.h"
+#include "include/SDL.h"
 #include "Pipe.h"
 #include "Tile.h"
 

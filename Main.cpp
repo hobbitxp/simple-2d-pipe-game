@@ -6,8 +6,11 @@
 * 4/12: Removed nearly all code from main method, it now just creates an instance of a game object
 *
 */
+#pragma comment(lib, "lib/SDL.lib")
+#pragma comment(lib, "lib/SDLmain.lib")
+
 #include <stdlib.h>
-#include "SDL.h"
+#include "include/SDL.h"
 #include "Game.h"
 
 int main(int argc, char **argv)
